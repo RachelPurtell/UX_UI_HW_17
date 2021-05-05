@@ -1,0 +1,124 @@
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+.navLinks{
+    vertical-align: top;
+}
+body {
+    margin: 0;
+  }
+nav {
+    width:73%;
+    padding:1%;
+}
+header{
+    display:flex;
+    background-color:blanchedalmond;
+    padding: 15 px;
+    font-size: medium;
+    color: blanchedalmond;
+    justify-content: space-between;
+    color: black;
+
+}
+ header ul {
+    width:50%;
+    margin-left: auto;
+    float: right;
+    align-items: right;
+ 
+}
+li {
+    display: inline-block;
+    padding: 0px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 500;
+    font-size: 18px;
+    color: blanchedalmond;
+}
+.navLinks {
+    list list-style: none;
+}
+header p {
+    display: inline-block;
+    font-size: larger;
+}
+.heroImg {
+    height:600px;
+    padding: 100px 15px;
+}
+.content {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+}
+button {
+    padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+footer {
+    background-color: black;
+}
+  /* My UX Skills Section */
+  .flexContainer {
+    display: flex;
+    padding: 60px 30px;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+  myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #EBEBEB;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
+    ;
+  }
+  .workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img1, .img2, .content1, .content2 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      width: 33%;
+      padding: 25px;
+    }
+  }
